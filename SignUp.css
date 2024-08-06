@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1500px;
+}
+
+/* ----start of navbar---- */
+.logo {
+    padding: 0px 40px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+
+.logo img{
+    height: 70px;
+}
+/* -------end of nav-bar--- */
+
+
+/* ----body start----- */
+.rights {
+    margin-top: 30px;
+}
+
+
+.lefts {
+    text-align: center;
+    padding: 60px;
+}
+
+
+.leftstext {
+    font-size: 24px;
+    color: #2e3b4e;
+}
+
+
+.leftspara {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #5f6a7d;
+}
+
+
+.leftsbox1 {
+    margin-top: 80px;
+}
+
+
+.leftsright {
+    text-align: left;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-weight: 600;
+    color: #616A7D;
+    padding-left: 330px;
+    font-size: 16px;
+}
+
+
+.input-control input {
+    margin-top: 20px;
+    margin-left: 110px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, .9);
+    height: 48px;
+    line-height: normal;
+    padding: 8px 16px;
+    width: 780px;
+}
+
+
+/* .input-control {
+    margin-top: 20px;
+} */
+
+
+.f4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 330px;
+    width: 780px;
+    height: 1px;
+    background-color: #E0E0E0;
+}
+
+
+.f5 {
+    position: relative;
+    min-height: 20px;
+    margin: 0;
+    /* padding-left: 40px; */
+    margin-left: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6a7d;
+}
+
+
+.f6 {
+    margin-top: 50px;
+    position: relative;
+    min-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6a7d;
+}
+
+
+.f8 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-left: 330px;
+}
+
+
+.f8text {
+    font-size: 14px;
+    color: #616F85;
+}
+
+
+.f8button button {
+    appearance: none;
+    display: inline-block;
+    min-height: 40px;
+    padding: 10px 120px;
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #006aff;
+}
+
+
+.f8button button:hover {
+    background-color: #3160E7;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+
+.input-control .error {
+    color: #ff3860;
+    font-weight: 400;
+    font-size: 14px;
+    height: 13px;
+}
+/* ------end of body---- */
+
+
+/* ---start of media query- */
+@media (max-width: 480px) {
+    
+
+    .logo img{
+        width: 200px;
+        height:80px;
+    }
+    
+    .input-control input {
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid #376BFF;
+        border-radius: 6px;
+        color: rgba(0, 0, 0, .9);
+        display: flex;
+        height: 48px;
+        line-height: normal;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 320px;
+        height: 40px;
+    }
+
+    .boxxs102 {
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .leftsright{
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .pass{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 32px;
+    }
+
+    .box106{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        gap: 94px;
+    }
+
+    .box106 button{
+        margin: 0px;
+        padding: 6px 28px;
+        font-size: 14px;
+    }
+
+
+    .input-control {
+        margin-top: 40px;
+    }
+
+    .f4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        width: 320px;
+        height: 1px;
+        background-color: #E0E0E0;
+    }
+    .box103 a{
+        margin:0px;
+        padding: 0px;
+        padding: 8px 20px;
+        margin-left: 280px;
+        font-size: 14px;
+        
+        /* margin-top: 40px; */
+    }
+
+
+    .boxx105{
+        margin: 0px;
+        padding: 0px;
+        gap: 10px;
+        margin-left: 28px;
+    }
+    
+
+    .boxx105sub img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .f6{
+        
+        padding: 0px;
+        margin: 0px;
+        margin-left: 24px;
+        margin-top: 20px;
+        text-align: left;
+    }
+
+    .f5{
+        margin: 0px;
+        margin-left: 24px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .f8{
+        margin: 0px;
+        padding: 0px;
+        gap: 40px;
+    }
+
+
+    .f8text{
+        margin-left: 16px;
+        font-size: 12px;
+    }
+
+    .f8button button{
+        padding: 8px 24px;
+    }
+
+    .input-control .error {
+        text-align: center;
+        color: #ff3860;
+        font-weight: 400;
+        font-size: 10px;
+        height: 13px;
+    }
+    
+}
+/* ----------end of medai query------- */

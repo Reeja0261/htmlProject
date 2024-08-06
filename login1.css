@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1500px;
+}
+
+body {
+    margin: 0;
+    max-width: 1500px;
+    /* background-color: #F8F8F8; */
+}
+
+
+
+/* ----start of nav-bar--- */
+
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    height: 70px;
+}
+
+
+
+.box100 {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 700;
+    color: #323b43;
+}
+
+
+.boxxs {
+    padding: 32px;
+}
+
+
+.box101 {
+    font-size: 18px;
+    color: #464443;
+    text-align: center;
+}
+
+
+.input-control input {
+    margin-top: 20px;
+    margin-left: 330px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, .9);
+    display: flex;
+    height: 48px;
+    line-height: normal;
+    line-height: 24px;
+    padding: 8px 16px;
+    width: 780px;
+    height: 43px;
+}
+
+
+.boxxs102 {
+    padding-left: 330px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.input-control {
+    margin-top: 40px;
+}
+
+/* ----end of nav-bar---- */
+
+/* ----start of body--- */
+
+
+.box106{
+    display: flex;
+    align-items: center;
+    gap:500px;
+    margin-top: 40px;
+}
+
+
+.pass{
+    padding-left: 330px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.box106 button {
+    /* margin-top: 40px; */
+    /* margin-left: 980px; */
+    background-color: #006aff;
+    color: #fff;
+    border: none;
+    line-height: 24px;
+    padding: 10px 64px;
+    border-radius: 6px;
+    font-size: inherit;
+    font-weight: 600;
+}
+
+
+.box106 button:hover {
+    cursor: pointer;
+    background-color: #3160E7;
+}
+
+
+.box104 {
+    margin-top: 40px;
+    border-radius: 2px;
+    margin-left: 330px;
+    text-align: center;
+    width: 810px;
+    height: 10px;
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+
+/* .box105 img {
+    margin-top: 40px;
+    margin-left: 325px;
+    width: 845px;
+    height: 100px;
+} */
+
+.boxx105{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    margin-left: 330px;
+    cursor: pointer;
+}
+
+.boxx105 img{
+    cursor: pointer;
+    /* background-color: #006aff; */
+}
+
+
+.boxx105sub img:hover{
+    cursor: pointer;
+    background-color: #E7F0FF;
+}
+
+
+.leftsright{
+    padding-left: 330px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+
+.input-control .error {
+    text-align: center;
+    color: #ff3860;
+    font-weight: 400;
+    font-size: 14px;
+    height: 13px;
+}
+
+.f8button button:hover {
+    background-color: #3160E7;
+}
+
+
+.input-control input:focus {
+    outline: 0;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+
+.input-control .error {
+    color: #ff3860;
+    font-weight: 400;
+    font-size: 14px;
+    height: 13px;
+}
+
+/* ---end of body--- */
+
+
+
+/* -----start of media query--------------- */
+@media (max-width: 480px) {
+    
+
+    .logo img{
+        width: 200px;
+        height:80px;
+    }
+    
+    .input-control input {
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid #376BFF;
+        border-radius: 6px;
+        color: rgba(0, 0, 0, .9);
+        display: flex;
+        height: 48px;
+        line-height: normal;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 320px;
+        height: 40px;
+    }
+
+    .boxxs102 {
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .leftsright{
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .pass{
+        font-size: 12px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 32px;
+    }
+
+    .box106{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        gap: 94px;
+    }
+
+    .box106 button{
+        margin: 0px;
+        padding: 6px 28px;
+        font-size: 14px;
+    }
+
+
+    .input-control {
+        margin-top: 40px;
+    }
+
+    .box104 {
+        margin-top: 40px;
+        border-radius: 2px;
+        margin-left: 30px;
+        text-align: center;
+        width: 320px;
+        height: 10px;
+        color: #F2F2F2;
+        background-color: #F2F2F2;
+    }
+
+
+    .box103 a{
+        margin:0px;
+        padding: 0px;
+        padding: 8px 20px;
+        margin-left: 280px;
+        font-size: 14px;
+        
+        /* margin-top: 40px; */
+    }
+
+
+    .boxx105{
+        margin: 0px;
+        padding: 0px;
+        gap: 10px;
+        margin-left: 28px;
+    }
+    
+
+    .boxx105sub img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .input-control .error {
+        text-align: center;
+        color: #ff3860;
+        font-weight: 400;
+        font-size: 10px;
+        height: 13px;
+    }
+}
+
+/* ---end of medai query----------- */

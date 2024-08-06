@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1500px;
+}
+
+body {
+    margin: 0;
+    max-width: 1500px;
+    background-color: #F8F8F8;
+}
+
+
+/* ---start of nav-bar---- */
+.logo{
+    padding: 0px 40px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+
+.logo img{
+    margin-top: 20px;
+    width: 50px;
+}
+
+
+/* ----end of nav-bar------- */
+
+/* ----body start----- */
+.rights {
+    margin-top: 20px;
+}
+
+
+.lefts {
+    text-align: center;
+    padding: 60px;
+}
+
+
+.leftstext {
+    font-size: 24px;
+    color: #2e3b4e;
+}
+
+
+.leftspara {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #5f6a7d;
+}
+
+.leftsbox1 {
+    margin-top: 50px;
+}
+
+
+.leftsright {
+    margin-left: 20px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+    font-weight: 600;
+    color: #616A7D;
+    padding-left: 330px;
+    font-size: 16px;
+}
+
+
+.input-control input {
+    margin-top: 20px;
+    margin-left: 110px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, .9);
+    height: 48px;
+    line-height: normal;
+    padding: 8px 16px;
+    width: 780px;
+}
+
+
+.input-control input {
+    margin-top: 20px;
+    margin-left: 110px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #376BFF;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, .9);
+    height: 48px;
+    line-height: normal;
+    padding: 8px 16px;
+    width: 780px;
+}
+
+.input-control {
+    margin-top: 20px;
+}
+
+.box106{
+    display: flex;
+    align-items: center;
+    gap:285px;
+    margin-top: 40px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #3974FF;
+}
+
+
+.pass{
+    
+    padding-left: 350px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dit button {
+    /* margin-top: 40px; */
+    /* margin-left: 980px; */
+    background-color: #006aff;
+    color: #fff;
+    border: none;
+    line-height: 24px;
+    padding: 10px 160px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.dit button:hover{
+    /* margin-top: 40px; */
+    /* margin-left: 980px; */
+    background-color: #005AD9;;
+    color: #fff;
+    border: none;
+    line-height: 24px;
+    padding: 10px 160px;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.box104 {
+    margin-top: 40px;
+    border-radius: 2px;
+    margin-left: 330px;
+    text-align: center;
+    width: 815px;
+    height: 1px;
+    color: #E3E3E3;
+    background-color: #E3E3E3;
+}
+
+.english{
+    color: #3974FF;
+    font-weight: 700;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+
+.input-control .error {
+    color: #ff3860;
+    font-weight: 400;
+    font-size: 14px;
+    height: 13px;
+}
+
+/* ------end of body---- */
+
+
+/* --start of media query- */
+@media (max-width: 480px) {
+    .logo img {
+        width: 200px;
+        height: 50px;
+    }
+
+    .input-control input {
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: left;
+        background-color: #fff;
+        border: 1px solid #376BFF;
+        border-radius: 6px;
+        color: rgba(0, 0, 0, 0.9);
+        height: 40px; /* Make sure only one height property is defined */
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 320px;
+    }
+
+    .boxxs102 {
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .leftsright {
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .pass {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        margin-left: 32px;
+    }
+
+    .box106 {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        gap:80px;
+    }
+
+    .dit button {
+        /* margin-top: 40px; */
+        /* margin-left: 20px; */
+        background-color: #006aff;
+        color: #fff;
+        border: none;
+        line-height: 24px;
+        padding: 8px 32px;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    
+    .dit button:hover{
+        /* margin-top: 40px; */
+        /* margin-left: 980px; */
+        background-color: #005AD9;;
+        color: #fff;
+        border: none;
+        line-height: 24px;
+        padding: 8px 32px;
+        border-radius: 6px;
+        font-size: inherit;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .input-control {
+        margin-top: 40px;
+    }
+
+    .box104 {
+        margin-top: 40px;
+        border-radius: 2px;
+        margin-left: 30px;
+        text-align: center;
+        width: 320px;
+        height: 10px;
+        color: #F2F2F2;
+        background-color: #F2F2F2;
+    }
+
+    .input-control .error {
+        text-align: center;
+        color: #ff3860;
+        font-weight: 400;
+        font-size: 10px;
+        height: 13px;
+    }
+}
+/* --end of media query- */
